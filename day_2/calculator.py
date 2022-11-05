@@ -30,4 +30,4 @@ tip = int(input("How much tip would you like to give? 10,20,30? "))
 people = int(input("How may people to split the bill?"))
 bill_with_tip = round(bill * (1 + tip/100),2)
 # or tip / 100 * bill + bill
-print (f"each personle should pay {bill_with_tip}")
+print (f"each personle should pay { bill_with_tip}")
